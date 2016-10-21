@@ -3,10 +3,10 @@
 @font-face {
   font-family: 'cheqcon';
   src:
-    url('#{$icomoon-font-path}/cheqcon.woff2?3uwd5m') format('woff2'),
-    url('#{$icomoon-font-path}/cheqcon.ttf?3uwd5m') format('truetype'),
-    url('#{$icomoon-font-path}/cheqcon.woff?3uwd5m') format('woff'),
-    url('#{$icomoon-font-path}/cheqcon.svg?3uwd5m#cheqcon') format('svg');
+    url('#{$icomoon-font-path}/cheqcon.woff2?f5z87k') format('woff2'),
+    url('#{$icomoon-font-path}/cheqcon.ttf?f5z87k') format('truetype'),
+    url('#{$icomoon-font-path}/cheqcon.woff?f5z87k') format('woff'),
+    url('#{$icomoon-font-path}/cheqcon.svg?f5z87k#cheqcon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,45 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.cqc-ax5ui-black {
+  &:before {
+    content: $cqc-ax5ui-black;
+  }
+}
+.cqc-ax5ui .path1 {
+  &:before {
+    content: $cqc-ax5ui-path1;  
+    color: rgb(158, 201, 40);
+  }
+}
+.cqc-ax5ui .path2 {
+  &:before {
+    content: $cqc-ax5ui-path2;  
+    margin-left: -1.58203125em;  
+    color: rgb(158, 201, 40);
+  }
+}
+.cqc-ax5ui .path3 {
+  &:before {
+    content: $cqc-ax5ui-path3;  
+    margin-left: -1.58203125em;  
+    color: rgb(95, 156, 195);
+  }
+}
+.cqc-ax5ui .path4 {
+  &:before {
+    content: $cqc-ax5ui-path4;  
+    margin-left: -1.58203125em;  
+    color: rgb(95, 156, 195);
+  }
+}
+.cqc-ax5ui .path5 {
+  &:before {
+    content: $cqc-ax5ui-path5;  
+    margin-left: -1.58203125em;  
+    color: rgb(234, 85, 20);
+  }
+}
 .cqc-github-square {
   &:before {
     content: $cqc-github-square;
