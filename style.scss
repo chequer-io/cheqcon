@@ -3,10 +3,10 @@
 @font-face {
   font-family: 'cheqcon';
   src:
-    url('#{$icomoon-font-path}/cheqcon.woff2?f5z87k') format('woff2'),
-    url('#{$icomoon-font-path}/cheqcon.ttf?f5z87k') format('truetype'),
-    url('#{$icomoon-font-path}/cheqcon.woff?f5z87k') format('woff'),
-    url('#{$icomoon-font-path}/cheqcon.svg?f5z87k#cheqcon') format('svg');
+    url('#{$icomoon-font-path}/cheqcon.woff2?cmdqqd') format('woff2'),
+    url('#{$icomoon-font-path}/cheqcon.ttf?cmdqqd') format('truetype'),
+    url('#{$icomoon-font-path}/cheqcon.woff?cmdqqd') format('woff'),
+    url('#{$icomoon-font-path}/cheqcon.svg?cmdqqd#cheqcon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -65,6 +65,21 @@ i {
     color: rgb(234, 85, 20);
   }
 }
+.cqc-check {
+  &:before {
+    content: $cqc-check;
+  }
+}
+.cqc-check-circle {
+  &:before {
+    content: $cqc-check-circle;
+  }
+}
+.cqc-check-circle-o {
+  &:before {
+    content: $cqc-check-circle-o;
+  }
+}
 .cqc-github-square {
   &:before {
     content: $cqc-github-square;
@@ -73,6 +88,81 @@ i {
 .cqc-github {
   &:before {
     content: $cqc-github;
+  }
+}
+.cqc-square3 {
+  &:before {
+    content: $cqc-square3;
+  }
+}
+.cqc-circle-o {
+  &:before {
+    content: $cqc-circle-o;
+  }
+}
+.cqc-circle {
+  &:before {
+    content: $cqc-circle;
+  }
+}
+.cqc-file-word-o {
+  &:before {
+    content: $cqc-file-word-o;
+  }
+}
+.cqc-file-excel-o {
+  &:before {
+    content: $cqc-file-excel-o;
+  }
+}
+.cqc-file-image-o {
+  &:before {
+    content: $cqc-file-image-o;
+  }
+}
+.cqc-file-photo-o {
+  &:before {
+    content: $cqc-file-photo-o;
+  }
+}
+.cqc-file-picture-o {
+  &:before {
+    content: $cqc-file-picture-o;
+  }
+}
+.cqc-file-archive-o {
+  &:before {
+    content: $cqc-file-archive-o;
+  }
+}
+.cqc-file-zip-o {
+  &:before {
+    content: $cqc-file-zip-o;
+  }
+}
+.cqc-file-audio-o {
+  &:before {
+    content: $cqc-file-audio-o;
+  }
+}
+.cqc-file-sound-o {
+  &:before {
+    content: $cqc-file-sound-o;
+  }
+}
+.cqc-file-movie-o {
+  &:before {
+    content: $cqc-file-movie-o;
+  }
+}
+.cqc-file-video-o {
+  &:before {
+    content: $cqc-file-video-o;
+  }
+}
+.cqc-file-code-o {
+  &:before {
+    content: $cqc-file-code-o;
   }
 }
 .cqc-git-square {
