@@ -8666,14 +8666,14 @@
       "metadata": {
         "fontFamily": "cheqcon",
         "majorVersion": 1,
-        "minorVersion": 5
+        "minorVersion": 6
       },
       "metrics": {
         "emSize": 1024,
         "baseline": 15,
         "whitespace": 50
       },
-      "noie8": true,
+      "noie8": false,
       "ie7": false,
       "showSelector": true,
       "selector": "i",

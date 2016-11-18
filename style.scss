@@ -2,11 +2,12 @@
 
 @font-face {
   font-family: 'cheqcon';
-  src:
-    url('#{$icomoon-font-path}/cheqcon.woff2?cmdqqd') format('woff2'),
-    url('#{$icomoon-font-path}/cheqcon.ttf?cmdqqd') format('truetype'),
-    url('#{$icomoon-font-path}/cheqcon.woff?cmdqqd') format('woff'),
-    url('#{$icomoon-font-path}/cheqcon.svg?cmdqqd#cheqcon') format('svg');
+  src:  url('#{$icomoon-font-path}/cheqcon.eot?yemx27');
+  src:  url('#{$icomoon-font-path}/cheqcon.eot?yemx27#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/cheqcon.woff2?yemx27') format('woff2'),
+    url('#{$icomoon-font-path}/cheqcon.ttf?yemx27') format('truetype'),
+    url('#{$icomoon-font-path}/cheqcon.woff?yemx27') format('woff'),
+    url('#{$icomoon-font-path}/cheqcon.svg?yemx27#cheqcon') format('svg');
   font-weight: normal;
   font-style: normal;
 }

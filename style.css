@@ -1,10 +1,11 @@
 @font-face {
   font-family: 'cheqcon';
-  src:
-    url('fonts/cheqcon.woff2?cmdqqd') format('woff2'),
-    url('fonts/cheqcon.ttf?cmdqqd') format('truetype'),
-    url('fonts/cheqcon.woff?cmdqqd') format('woff'),
-    url('fonts/cheqcon.svg?cmdqqd#cheqcon') format('svg');
+  src:  url('fonts/cheqcon.eot?yemx27');
+  src:  url('fonts/cheqcon.eot?yemx27#iefix') format('embedded-opentype'),
+    url('fonts/cheqcon.woff2?yemx27') format('woff2'),
+    url('fonts/cheqcon.ttf?yemx27') format('truetype'),
+    url('fonts/cheqcon.woff?yemx27') format('woff'),
+    url('fonts/cheqcon.svg?yemx27#cheqcon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
